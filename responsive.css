@@ -1,0 +1,38 @@
+@media screen and (max-width:860px){
+   
+    .clock>:first-child>div {
+        width: 7rem;
+        height: 7rem;
+    }
+    .clock>:last-child {
+        width: 30rem;
+        height: 5rem;
+    }
+    .clock {
+        height: 18rem;
+        width: 35rem;
+    }
+    .clock>:first-child {
+       
+        gap: 0.5rem;
+    }
+}
+@media screen and (max-width:485px){
+   
+    .clock>:first-child {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .clock>:last-child {
+        width: 18rem;
+        height: 5rem;
+    }
+    .clock {
+        height: 36rem;
+        width: 22rem;
+    }
+    body>:first-child>h1 {
+        font-size: 2.3rem;
+        margin-left: 22px;
+    }
+}
