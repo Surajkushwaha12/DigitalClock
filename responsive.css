@@ -24,8 +24,8 @@
         flex-direction: column;
     }
     .clock>:last-child {
-        width: 18rem;
-        height: 5rem;
+        width: 19rem;
+        height: 6rem;
     }
     .clock {
         height: 36rem;
@@ -37,9 +37,9 @@
     }
     .clock>:last-child>div>h1 {
        
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
